@@ -13,3 +13,7 @@ This version includes:
 - Responsive mobile layout
 
 After uploading, commit your changes and wait a few minutes for GitHub Pages to redeploy.
+
+Formspree field update:
+- Uses recognized name and email fields
+- email is available for Reply-To behavior in Formspree notifications

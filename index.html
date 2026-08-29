@@ -108,19 +108,19 @@
 
         <form id="pdRequestForm" action="https://formspree.io/f/xaeyyggj" method="POST">
           <input type="hidden" name="_subject" value="New Professional Development Request - drpayopr.com">
-          <label><span data-en="Name" data-es="Nombre">Name</span><input type="text" name="Name" required></label>
-          <label><span data-en="Email" data-es="Correo electrónico">Email</span><input type="email" name="Email" required></label>
-          <label><span data-en="Organization / School" data-es="Organización / Escuela">Organization / School</span><input type="text" name="Organization"></label>
+          <label><span data-en="Name" data-es="Nombre">Name</span><input type="text" name="name" required></label>
+          <label><span data-en="Email" data-es="Correo electrónico">Email</span><input type="email" name="email" required></label>
+          <label><span data-en="Organization / School" data-es="Organización / Escuela">Organization / School</span><input type="text" name="organization"></label>
           <label><span data-en="Professional Development Topic" data-es="Tema de Desarrollo Profesional">Professional Development Topic</span>
-            <select name="Topic">
+            <select name="topic">
               <option>Co-Teaching & Teamwork / Co-enseñanza y Trabajo en Equipo</option>
               <option>Special Education / Educación Especial</option>
               <option>Educational Leadership / Liderazgo Educativo</option>
               <option>Customized Training / Capacitación Personalizada</option>
             </select>
           </label>
-          <label><span data-en="Preferred Date" data-es="Fecha Preferida">Preferred Date</span><input type="date" name="Preferred Date"></label>
-          <label><span data-en="Message" data-es="Mensaje">Message</span><textarea name="Message" rows="5" required></textarea></label>
+          <label><span data-en="Preferred Date" data-es="Fecha Preferida">Preferred Date</span><input type="date" name="preferred_date"></label>
+          <label><span data-en="Message" data-es="Mensaje">Message</span><textarea name="message" rows="5" required></textarea></label>
           <button class="cta form-button" id="pdSubmitButton" type="submit" data-en="Send Request" data-es="Enviar Solicitud">Send Request</button>
           <small data-en="Your request will be submitted securely from this website." data-es="Su solicitud será enviada de forma segura desde este sitio web.">Your request will be submitted securely from this website.</small>
           <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
