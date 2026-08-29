@@ -1,22 +1,15 @@
-drpayopr.com Bilingual Website
+drpayopr.com Bilingual Website — Formspree Version
 
-Upload these files to the root of your GitHub Pages repository:
-- index.html
-- styles.css
-- script.js
-- CNAME
-- headshot.png
-- book-cover.jpg
+Upload ALL files in this folder to the root of your GitHub Pages repository.
 
 This version includes:
 - English / Spanish language switch
-- Five main navigation areas: Home, About, Professional Development, Book, Contact
-- Prominent "Request Professional Development" call-to-action
-- Professional development request form
+- Home, About, Professional Development, Book, Contact
+- Request Professional Development call-to-action
+- Formspree endpoint: https://formspree.io/f/xaeyyggj
+- Direct website form submissions
+- Bilingual success/error messages
 - marketing@drpayopr.com contact email
 - Responsive mobile layout
 
-Important:
-The form currently uses mailto:, so it opens the visitor's email app.
-If you later want submissions to work directly on the website without opening email,
-connect the form to a service such as Formspree.
+After uploading, commit your changes and wait a few minutes for GitHub Pages to redeploy.
