@@ -17,3 +17,16 @@ After uploading, commit your changes and wait a few minutes for GitHub Pages to 
 Formspree field update:
 - Uses recognized name and email fields
 - email is available for Reply-To behavior in Formspree notifications
+
+Readers & Impact update:
+- Includes headshot.png
+- Includes book-cover.jpg
+- Includes reader-silvia.jpg
+- Includes reader-denisse.jpg
+- Added bilingual Readers & Impact / Lectores e Impacto navigation and section
+- Image filenames exactly match the paths used in index.html
+
+Amazon purchase update:
+- Added Purchase on Amazon / Comprar en Amazon button in the Book section.
+- Link: https://www.amazon.com/CO-ENSE%C3%91ANZA-Estrategia-educativa-Programas-Educaci%C3%B3n/dp/B0HFMJR839
+- Opens the Amazon product page in a new browser tab.
