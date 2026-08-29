@@ -1,0 +1,1 @@
+Upload all files in this folder to the root of your GitHub Pages repository. The contact button is configured to send inquiries to marketing@drpayopr.com.
