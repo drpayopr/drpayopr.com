@@ -1,1 +1,0 @@
-Upload all files in this folder to the root of your GitHub Pages repository. Replace YOUR-EMAIL-HERE in index.html with your professional email address.
