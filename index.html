@@ -423,6 +423,12 @@
       .article-grid { grid-template-columns:1fr; }
     }
 
+  
+    .amazon-book-btn { margin-left:10px; }
+    @media (max-width:640px) {
+      .book .btn { display:block; width:100%; text-align:center; margin:10px 0 0 !important; }
+      .amazon-book-btn { margin-left:0; }
+    }
   </style>
 </head>
 
@@ -761,7 +767,7 @@
     <section class="section section-soft" id="about">
       <div class="container about-grid">
         <div>
-          <img src="assets/images/book-cover.jpg"
+          <img src="assets/images/dr-payo-headshot.png"
                alt="Professional headshot of Dr. José Luis Santiago Castillo"
                style="width:100%;max-width:460px;margin:auto;border-radius:28px;box-shadow:0 18px 45px rgba(18,53,91,.20);object-fit:cover;"
                loading="lazy" />
@@ -830,7 +836,7 @@
       <div class="container">
         <div class="book">
           <div style="display:flex;justify-content:center;">
-            <img src="assets/images/dr-payo-headshot.png"
+            <img src="assets/images/book-cover.jpg"
                  alt="La Co-Enseñanza: Estrategia educativa y trabajo en equipo en los Programas de Educación Especial by Dr. José L. Santiago Castillo"
                  style="width:min(100%,340px);border-radius:12px;box-shadow:0 18px 40px rgba(18,53,91,.25);"
                  loading="lazy" />
@@ -850,6 +856,10 @@
             <a href="#request" class="btn btn-blue">
               <span data-lang="en">Request a Co-Teaching Training</span>
               <span data-lang="es">Solicitar Capacitación en Co-Enseñanza</span>
+            </a>
+            <a href="https://www.amazon.com/CO-ENSE%C3%91ANZA-Estrategia-educativa-Programas-Educaci%C3%B3n/dp/B0HFMJR839" class="btn btn-gold amazon-book-btn" target="_blank" rel="noopener noreferrer">
+              <span data-lang="en">Buy the Book on Amazon ↗</span>
+              <span data-lang="es">Comprar el Libro en Amazon ↗</span>
             </a>
           </div>
         </div>
