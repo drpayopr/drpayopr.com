@@ -429,7 +429,58 @@
       .book .btn { display:block; width:100%; text-align:center; margin:10px 0 0 !important; }
       .amazon-book-btn { margin-left:0; }
     }
+  
+    .brand-logo { width:58px; height:58px; object-fit:contain; flex:0 0 auto; border-radius:50%; background:#fff; }
+    @media (max-width:640px) { .brand-logo { width:46px; height:46px; } }
+
+  
+    /* DRPAYOPR brand logo */
+    .brand-logo {
+      width:56px;
+      height:56px;
+      object-fit:contain;
+      background:transparent;
+      border-radius:0;
+    }
+    .drpayopr-section-brand {
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:22px;
+      margin:0 auto 42px;
+      text-align:left;
+    }
+    .drpayopr-section-brand img {
+      width:118px;
+      height:118px;
+      object-fit:contain;
+      flex:0 0 auto;
+    }
+    .drpayopr-section-wordmark {
+      font-family:Georgia, "Times New Roman", serif;
+      font-weight:800;
+      font-size:clamp(2.2rem,5vw,4.4rem);
+      line-height:.95;
+      letter-spacing:.02em;
+      color:#fff;
+      border-bottom:3px solid #c98a18;
+      padding-bottom:10px;
+    }
+    .drpayopr-section-tagline {
+      margin-top:10px;
+      color:#c98a18;
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      font-size:.82rem;
+      font-weight:800;
+    }
+    @media (max-width:700px) {
+      .drpayopr-section-brand { flex-direction:column; text-align:center; gap:12px; }
+      .drpayopr-section-brand img { width:92px; height:92px; }
+    }
+
   </style>
+  <link rel="icon" type="image/png" href="assets/images/drpayopr-logo-gold.png">
 </head>
 
 <body>
@@ -449,7 +500,7 @@
   <header>
     <div class="container nav">
       <a href="#home" class="brand" aria-label="DRPAYOPR Home">
-        <div class="brand-mark">DR</div>
+        <img class="brand-logo" src="assets/images/drpayopr-logo-gold.png" alt="DRPAYOPR logo">
         <div>DRPAYOPR<small>Dr. José Santiago Castillo</small></div>
       </a>
 
@@ -543,6 +594,16 @@
     </div>
 
     <section class="section section-blue" id="master-system">
+      <div class="container drpayopr-section-brand" aria-label="DRPAYOPR">
+        <img src="assets/images/drpayopr-logo-gold.png" alt="DRPAYOPR gold logo">
+        <div>
+          <div class="drpayopr-section-wordmark">DRPAYOPR</div>
+          <div class="drpayopr-section-tagline">
+            <span data-lang="en">Educate · Collaborate · Transform</span>
+            <span data-lang="es">Educar · Colaborar · Transformar</span>
+          </div>
+        </div>
+      </div>
       <div class="container system-grid">
         <div>
           <span class="eyebrow" style="color:#f0c76a">

@@ -1,21 +1,11 @@
-# DRPAYOPR Website
+# DRPAYOPR Website — GitHub Pages
 
-Complete website package for DRPAYOPR.
+This is the clean deployment package for drpayopr.com.
 
-## Files
-- `index.html` — complete website code, styles, JavaScript, bilingual content, and Formspree inquiry form.
-- `assets/images/book-cover.jpg` — book cover used in Book & Resources.
-- `assets/images/dr-payo-headshot.png` — Dr. Payo headshot used in About Dr. Payo.
+Upload the CONTENTS of this folder to the root of the GitHub Pages repository.
 
-## GitHub Pages
-Upload the CONTENTS of this folder to the root of your GitHub Pages repository.
-
-The repository root should contain:
-
-index.html
-assets/
-  images/
-    book-cover.jpg
-    dr-payo-headshot.png
-
-Commit the changes. GitHub Pages will use `index.html` as the website homepage.
+Important:
+- Keep the `assets/images/` folder structure exactly as provided.
+- GitHub Pages file names are case-sensitive.
+- `CNAME` preserves the custom domain `drpayopr.com`.
+- `index.html` is the website homepage.
