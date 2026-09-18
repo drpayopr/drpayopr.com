@@ -1,0 +1,13 @@
+﻿Test ID,Scenario,Steps / expected outcome,Result (Pass/Fail/Blocked/Not tested),Tester,Date,Browser / AT / device,Language,Evidence,Defect ID,Retest date,Retest result
+V-01,Automated accessibility scan,"All HTML pages, languages, dialog/form states",Not tested,,,,,,,,
+V-02,Keyboard navigation,All views and controls,Not tested,,,,,,,,
+V-03,Mobile menu and reflow,320 CSS px; zoom; mobile,Not tested,,,,,,,,
+V-04,Book dialog,"Focus trap, Escape, restore focus",Not tested,,,,,,,,
+V-05,Cookie consent,"Keyboard, persistence, analytics network",Not tested,,,,,,,,
+V-06,Contact and release forms,"Labels, errors, submission, announcements",Not tested,,,,,,,,
+V-07,Bilingual functionality,Content and screen-reader language changes,Not tested,,,,,,,,
+V-08,Screen readers,NVDA and VoiceOver,Not tested,,,,,,,,
+V-09,Color contrast,"Text, controls, focus states",Not tested,,,,,,,,
+V-10,Video and motion,"Captions, transcript, reduced motion",Not tested,,,,,,,,
+V-11,PDF accessibility,English and Spanish releases,Not tested,,,,,,,,
+V-12,Live website,GitHub Pages and third-party integrations,Not tested,,,,,,,,

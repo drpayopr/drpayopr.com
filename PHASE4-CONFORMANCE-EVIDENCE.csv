@@ -1,0 +1,13 @@
+﻿Topic / WCAG mapping (confirm during audit),Current evidence,Assessment status,Tester,Date,Evidence path,Notes
+Document language / 3.1.1,Stage 1: lang attribute present,Unverified,,,,Do not infer conformance from source presence
+Non-text content / 1.1.1,Stage 1: alt attributes present; appropriateness unreviewed,Unverified,,,,Do not infer conformance from source presence
+"Keyboard / 2.1.1, 2.1.2",Phase 2 source-level focus/dialog changes,Unverified,,,,Do not infer conformance from source presence
+"Focus visible / 2.4.7, 2.4.11",Phase 2 source-level focus CSS changes,Unverified,,,,Do not infer conformance from source presence
+"Name, role, value / 4.1.2",Stage 1 basic button/link checks; Phase 2 cookie semantics,Unverified,,,,Do not infer conformance from source presence
+"Contrast / 1.4.3, 1.4.11",No measured evidence,Unverified,,,,Do not infer conformance from source presence
+Reflow / 1.4.10,No browser evidence,Unverified,,,,Do not infer conformance from source presence
+"Forms / 3.3.1, 3.3.2, 4.1.3",No functional evidence,Unverified,,,,Do not infer conformance from source presence
+Language of parts / 3.1.2,No screen-reader evidence,Unverified,,,,Do not infer conformance from source presence
+Media / 1.2.x,No captions/transcript verification,Unverified,,,,Do not infer conformance from source presence
+PDF accessibility,No PDF accessibility audit,Unverified,,,,Do not infer conformance from source presence
+Deployed site,No live verification,Unverified,,,,Do not infer conformance from source presence

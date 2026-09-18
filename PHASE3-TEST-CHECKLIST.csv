@@ -1,0 +1,13 @@
+Test ID,Scenario,Status,Tester,Date,Browser/device,Evidence,Defect ID
+1,Keyboard navigation,Not tested,,,,,
+2,Mobile menu,Not tested,,,,,
+3,Book dialog,Not tested,,,,,
+4,Cookie consent,Not tested,,,,,
+5,Forms,Not tested,,,,,
+6,Bilingual language switch,Not tested,,,,,
+7,Screen readers,Not tested,,,,,
+8,Zoom and reflow,Not tested,,,,,
+9,Color contrast,Not tested,,,,,
+10,Reduced motion and media,Not tested,,,,,
+11,PDF accessibility,Not tested,,,,,
+12,Live deployment,Not tested,,,,,
