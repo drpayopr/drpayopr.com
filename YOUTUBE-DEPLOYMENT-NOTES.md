@@ -1,0 +1,1 @@
+Podcast Episode 01 now embeds https://youtu.be/ZEVBKyAGSNU using YouTube privacy-enhanced embed. No MP4 upload is required. Upload all files at ZIP root to your GitHub Pages repository. Keep all image files next to index.html. Future episodes can be added in the episodes array using videoId.
